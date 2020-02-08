@@ -1,0 +1,45 @@
+
+package assign;
+
+import java.util.Scanner;
+
+
+ 
+public class Arithmatic {
+   
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner(System.in);
+        
+        int num1, num2, result;
+        
+        System.out.println(" Enter your first number ");
+        
+        num1 = input.nextInt();
+        
+        System.out.println( " Enter Your second number ");
+        num2 = input.nextInt();
+        
+        
+        
+        result = num1 + num2;
+        System.out.println(" Sum = "+result);
+        
+        result = num1 - num2;
+        System.out.println(" Substraction  = "+result);
+        
+        result = num1 * num2;
+        System.out.println(" Multilication = "+result);
+        
+        result = num1 / num2;
+        System.out.println(" Division = "+result);
+        
+        result = num1 % num2;
+        System.out.println(" Extra  = "+result);
+        
+        
+        
+        
+    }
+    }
